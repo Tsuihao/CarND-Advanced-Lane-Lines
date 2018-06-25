@@ -5,9 +5,11 @@
 In this project, your goal is to write a software pipeline to identify the lane boundaries in a video, but the main output or product we want you to create is a detailed writeup of the project.
 
 
-Check Write Up
+Check Write Up & Video
 ---
-[writeup](https://github.com/Tsuihao/CarND-Advanced-Lane-Lines/blob/master/writeup.md)
+**[writeup](https://github.com/Tsuihao/CarND-Advanced-Lane-Lines/blob/master/writeup.md)**
+
+**[link to my video result](https://www.youtube.com/watch?v=uJ7xPukCM28&index=3&list=PL5Q1QlXB5Rp8u5mwFbCur1_boPTTFsu_L&t=0s)**
 
 
 The Project

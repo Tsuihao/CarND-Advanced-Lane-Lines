@@ -132,7 +132,9 @@ The class ImageLaneDetector is a host calss which includes the sub class (camera
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](https://www.youtube.com/watch?v=uJ7xPukCM28&index=3&list=PL5Q1QlXB5Rp8u5mwFbCur1_boPTTFsu_L&t=0s)
+**[video in HLS color space](https://www.youtube.com/watch?v=fpLCauf7KTc)** (_recommend_)
+
+**[video in LAB color space](https://www.youtube.com/watch?v=uJ7xPukCM28)**
 
 ---
 
@@ -141,6 +143,7 @@ Here's a [link to my video result](https://www.youtube.com/watch?v=uJ7xPukCM28&i
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
 * Imagefilter is still not optimal (e.g. Color space and sobel operation combinations)
-* The implementation heavily affect by the Warped area as well (e.g. For chellenge_video and harder_challenge_video, different warped area should be used)
-* The current implementaion is still not stable in terms of the [video time stamp 21s](https://youtu.be/uJ7xPukCM28?t=21s), this should be improved soon
-* A weird point is that, the LAB color space shows the better result in the image, but HLS shows better performance in the video (unacceptable).
+* The implementation heavily affect by the Warped area as well (e.g. For chellenge_video and harder_challenge_video, **different warped area should be used**)
+* The current implementaion is still not stable in terms of the [video time stamp 21s](https://youtu.be/uJ7xPukCM28?t=21s), this should be improved soon. Check the [improve version](https://www.youtube.com/watch?v=uJ7xPukCM28)
+* A weird point is that, the LAB color space shows the better result in the image, but HLS shows better performance in the video (unacceptable, need more experiments).
+* Sanity check need to be improved.

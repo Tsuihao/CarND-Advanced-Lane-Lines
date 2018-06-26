@@ -9,7 +9,9 @@ Check Write Up & Video
 ---
 **[writeup](https://github.com/Tsuihao/CarND-Advanced-Lane-Lines/blob/master/writeup.md)**
 
-**[link to my video result](https://www.youtube.com/watch?v=uJ7xPukCM28&index=3&list=PL5Q1QlXB5Rp8u5mwFbCur1_boPTTFsu_L&t=0s)**
+**[video in HLS color space](https://www.youtube.com/watch?v=fpLCauf7KTc)** (_recommend_)
+
+**[video in LAB color space](https://www.youtube.com/watch?v=uJ7xPukCM28)**
 
 
 The Project
@@ -37,3 +39,8 @@ If you're feeling ambitious (again, totally optional though), don't stop there! 
 Review Findings
 ---
 [First Review](https://review.udacity.com/#!/reviews/1303319)
+
+Notes
+---
+Currently, the warped area (perspective transform area) is customed for the project_video.
+for the challenge_video and harder_challenge_video need another warped area.

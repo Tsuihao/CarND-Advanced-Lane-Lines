@@ -82,7 +82,7 @@ src=np.float32([[572, 450],
 
 dst=np.float32([[160, 0], 
                 [160, 720], 
-                [1120, 720], 
+                [1000, 720], 
                 [1000, 0]])
 ```
 
@@ -92,7 +92,7 @@ This resulted in the following source and destination points:
 |:-------------:|:-------------:| 
 | 572, 450      | 160, 0        | 
 | 0, 720        | 160, 720     |
-| 1280, 720     | 1120, 720      |
+| 1280, 720     | 1000, 720      |
 | 702, 450      | 1000, 0        |
 
 
@@ -143,3 +143,4 @@ Here's a [link to my video result](https://www.youtube.com/watch?v=uJ7xPukCM28&i
 * Imagefilter is still not optimal (e.g. Color space and sobel operation combinations)
 * The implementation heavily affect by the Warped area as well (e.g. For chellenge_video and harder_challenge_video, different warped area should be used)
 * The current implementaion is still not stable in terms of the [video time stamp 21s](https://youtu.be/uJ7xPukCM28?t=21s), this should be improved soon
+* A weird point is that, the LAB color space shows the better result in the image, but HLS shows better performance in the video (unacceptable).
